@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.header {
+  background: #3137fd;
+  padding: 1.25rem;
+  color: #fff;
+  font-family: Rancho;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: 2px 2px 10px rgb(92, 92, 92);
+}
+
+.footer {
+  color: rgb(206, 206, 206);
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: auto;
+}
+
+textarea {
+  min-width: 31.25rem;
+  margin-top: 4.375rem;
+  margin-left: 30%;
+  box-shadow: 1px 1px 6px rgb(168, 168, 168);
+  border: none;
+  outline: none;
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  padding: 1.25rem;
+  resize: none;
+}
+
+.plus-btn {
+  position: relative;
+  left: -9.375rem;
+  top: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #3137fd;
+}
+
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  box-shadow: 1px 1px 6px rgb(168, 168, 168);
+  background: #fff;
+  min-height: 8.125rem;
+  width: 15.625rem;
+  border-radius: 0.625rem;
+  margin: 1.25rem;
+  padding: 0.625rem;
+  font-family: Roboto;
+}
+
+input {
+  position: relative;
+  top: 77px;
+  left: 30%;
+  min-width: 31.25rem;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px 10px 0 0;
+  padding: 1.25rem;
+  transition: 0.4s;
+}
+
+.del {
+  cursor: pointer;
+  color: #3137fd;
+  position: absolute;
+  bottom: 0.625rem;
+  right: 0.625rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content::first-letter {
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 10px;
+}
