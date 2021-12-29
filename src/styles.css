@@ -35,7 +35,6 @@ textarea:focus{
 textarea {
   min-width: 31.25rem;
   margin-top: 6.375rem;
-  margin-left: 30%;
   box-shadow: 1px 1px 6px rgb(168, 168, 168);
   border: none;
   outline: none;
