@@ -28,9 +28,13 @@ body {
   margin-top: auto;
 }
 
+textarea:focus{
+  margin-left: 0;
+}
+
 textarea {
   min-width: 31.25rem;
-  margin-top: 4.375rem;
+  margin-top: 6.375rem;
   margin-left: 30%;
   box-shadow: 1px 1px 6px rgb(168, 168, 168);
   border: none;
@@ -73,17 +77,18 @@ textarea {
 
 input {
   position: relative;
-  top: 77px;
-  left: 30%;
+  top: -137px;
+  left: 32.6%;
   min-width: 31.25rem;
   height: 50px;
   border: none;
   outline: none;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
-  border-radius: 10px 10px 0 0;
   padding: 1.25rem;
   transition: 0.4s;
+  box-shadow: 1px 1px 6px rgb(168, 168, 168);
+  border-radius: 10px 10px 0 0;
 }
 
 .del {
